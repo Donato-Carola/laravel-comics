@@ -8,19 +8,19 @@
 
     </section>
 
-    <section class="comics">
+    <section class="comics pt-5 pb-5">
         <div class="container">
             <div class="row">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 g-3"></div>
+
 
                 @foreach ($comics as $comicc)
-                    <div class="col">
-                        <div class="card">
-                            <img src="" alt="">
+                    <div class="col-md-4 col-lg-2  mb-2">
+                        <div class="card h-100 ">
+                            <img src="{{ $comicc['thumb'] }}" alt="">
                             <div class="card-body">
-                                <h3>
-                                    {{ $comicc['title'] }}
-                                </h3>
+                               <h5>{{ $comicc['title'] }}</h5>
+
+
                             </div>
                         </div>
                     </div>
@@ -34,10 +34,10 @@
 
     </section>
 
-    <section  id="preFooter">
+    <section id="preFooter">
 
         <ul class="container pt-3 pb-3 mb-0 d-flex justify-content-around align-items-center">
-            <li >
+            <li>
                 <img src="{{ Vite::asset('/resources/img/buy-comics-digital-comics.png') }}" alt="">
             </li>
             <li>

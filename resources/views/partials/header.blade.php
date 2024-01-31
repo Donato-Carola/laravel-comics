@@ -7,7 +7,7 @@
    <div class="pt-3 pb-3">
        <nav class="d-flex  align-items-center container">
         <img src="{{Vite::asset ('resources/img/dc-logo.png')}}" alt="">
-        <ul class="d-flex justify-content-between w-100">
+        <ul class="d-flex justify-content-between w-100 text-uppercase">
             <li>
                 characters
             </li>
