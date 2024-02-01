@@ -15,11 +15,11 @@
     @include('partials.header')
 
 
-     <main>
+
         @yield ('main-content')
         @yield ('comics-content')
 
-     </main>
+    
 
 
 

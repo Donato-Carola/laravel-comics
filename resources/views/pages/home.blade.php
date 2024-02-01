@@ -3,6 +3,7 @@
 
 
 @section('main-content')
+  <main class="homeMain">
     <section id="imagine" class="">
         <img class="container-fluid w-100 p-0 h-75" src="{{ Vite::asset('resources/img/jumbotron.jpg') }}" alt="">
 
@@ -55,4 +56,5 @@
         </ul>
 
     </section>
+</main>
 @endsection
