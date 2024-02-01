@@ -17,6 +17,7 @@
 
      <main>
         @yield ('main-content')
+        @yield ('comics-content')
 
      </main>
 

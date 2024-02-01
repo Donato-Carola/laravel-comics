@@ -4,7 +4,7 @@
 
 
 
-@section('main-content')
+@section('comics-content')
 
     <main>
         <h1>
@@ -16,7 +16,7 @@
         <h1>
             ciao
         </h1>
-        
+
     </main>
 
 
